@@ -755,7 +755,7 @@
   background-color: var(--brand-color);
 }
 
-.button-active {
+.button-active, .button-marketing, .button-designer, .button-applicaton, .button-pages {
   color: #212121;
   background-color: #f5f4fa;
   font-size: 16px;
@@ -768,37 +768,21 @@
 .button-pages {
   width: 93px;
   height: 38px;
-  background-color: #f5f4fa;
-  font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
 }
 
 .button-applicaton {
   width: 114px;
   height: 38px;
-  font-size: 16px;
-  font-weight: 500;
-  background-color: #f5f4fa;
-  cursor: pointer;
 }
 
 .button-designer {
   width: 91px;
   height: 38px;
-  font-size: 16px;
-  font-weight: 500;
-  background-color: #f5f4fa;
-  cursor: pointer;
 }
 
 .button-marketing {
   width: 121px;
   height: 38px;
-  font-size: 16px;
-  font-weight: 500;
-  background-color: #f5f4fa;
-  cursor: pointer;
 }
 
 .main-cards {

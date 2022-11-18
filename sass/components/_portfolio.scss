@@ -44,34 +44,22 @@
 .button-pages {
   width: 93px;
   height: 38px;
-  background-color: #f5f4fa;
-  font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
+  @extend.button-active;
 }
 .button-applicaton {
   width: 114px;
   height: 38px;
-  font-size: 16px;
-  font-weight: 500;
-  background-color: #f5f4fa;
-  cursor: pointer;
+  @extend.button-active;
 }
 .button-designer {
   width: 91px;
   height: 38px;
-  font-size: 16px;
-  font-weight: 500;
-  background-color: #f5f4fa;
-  cursor: pointer;
+  @extend.button-active;
 }
 .button-marketing {
   width: 121px;
   height: 38px;
-  font-size: 16px;
-  font-weight: 500;
-  background-color: #f5f4fa;
-  cursor: pointer;
+  @extend.button-active;
 }
 
 .main-cards {
@@ -138,7 +126,6 @@
   transition: 0.5s;
   margin: 0;
 }
-
 
 .card-border {
   border: 1px solid #eeeeee;
